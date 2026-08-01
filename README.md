@@ -94,8 +94,6 @@ the same Monte Carlo realizations using fixed and documented settings.
 
 ## License
 
-## License
-
 The source code, notebook, and generated figures in this repository are
 released under the MIT License.
 
