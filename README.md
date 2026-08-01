@@ -88,12 +88,15 @@ The notebook generates these retained figures:
 
 ## Disclosure
 
-Aamir Hussain Chughtai was the primary designer of ASOR in the original
+Aamir Hussain Chughtai, PhD was the primary designer of ASOR in the original
 study cited in the accompanying article. All estimators are evaluated on
 the same Monte Carlo realizations using fixed and documented settings.
 
 ## License
 
-No software license has been selected in this package. Add the license
-that matches your intended reuse policy when creating the GitHub
-repository. Without a license, the default copyright rules apply.
+## License
+
+The source code, notebook, and generated figures in this repository are
+released under the MIT License.
+
+Copyright © 2026 Aamir Hussain Chughtai. See the `LICENSE` file for details.
