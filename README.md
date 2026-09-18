@@ -1,7 +1,10 @@
 # Robust Linear Regression Under Outliers
 
-Reproducible code and experiments accompanying the Towards Data Science
-article **“How to Make Linear Regression Survive Outliers.”**
+[![Towards Data Science](https://shields.io)](https://towardsdatascience.com)
+[![License: MIT](https://shields.io)](https://opensource.org)
+
+Reproducible code and experiments accompanying the **Towards Data Science** article: 
+📖 [**“How to Make Linear Regression Survive Outliers: Comparing Classical and Modern Robust Estimators Through Theory, Code, and Experiments”**](https://towardsdatascience.com).
 
 The notebook compares:
 
@@ -16,6 +19,8 @@ It evaluates zero-mean Gaussian, biased Gaussian, biased uniform, and
 coherent competing-line contamination, together with sample-size,
 noise-scale, accuracy, and runtime experiments.
 
+---
+
 ## Repository contents
 
 - `robust_linear_regression_outliers.ipynb` — complete reproducible notebook
@@ -25,6 +30,8 @@ noise-scale, accuracy, and runtime experiments.
 
 Running the notebook also exports numerical CSV files, article tables,
 and a figure manifest into `figures/`.
+
+---
 
 ## Quick start
 
@@ -57,6 +64,8 @@ jupyter lab
 Open `robust_linear_regression_outliers.ipynb`, then use **Restart Kernel
 and Run All Cells**.
 
+---
+
 ## Reproducibility notes
 
 - Monte Carlo datasets use deterministic seeds.
@@ -86,11 +95,33 @@ The notebook generates these retained figures:
 8. sample-size prediction-error scaling;
 9. sample-size runtime scaling.
 
+---
+
 ## Disclosure
 
-Aamir Hussain Chughtai, PhD was the primary designer of ASOR in the original
-study cited in the accompanying article. All estimators are evaluated on
-the same Monte Carlo realizations using fixed and documented settings.
+### Methodology & Attribution
+**Aamir Hussain Chughtai, PhD** was the primary designer of **ASOR**, originally introduced in the study *“Bayesian Heuristics for Robust Spatial Perception”* (**IEEE Transactions on Instrumentation and Measurement**, 2024). 
+
+To ensure a transparent comparison, all estimators in this benchmark suite are evaluated on the identical **Monte Carlo realizations** using the fixed and documented algorithmic schedules detailed in the article.
+
+#### **BibTeX**
+```bibtex
+@article{chughtai2024asor,
+  author={Chughtai, Aamir Hussain and Tahir, Muhammad and Uppal, Mubeen},
+  journal={IEEE Transactions on Instrumentation and Measurement}, 
+  title={Bayesian Heuristics for Robust Spatial Perception}, 
+  year={2024},
+  volume={73},
+  pages={1--12}
+}
+```
+
+#### **APA 7th Edition**
+```text
+Chughtai, A. H., Tahir, M., & Uppal, M. (2024). Bayesian Heuristics for Robust Spatial Perception. IEEE Transactions on Instrumentation and Measurement, 73, 1-12.
+```
+
+---
 
 ## License
 
