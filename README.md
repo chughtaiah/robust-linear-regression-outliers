@@ -4,7 +4,7 @@
 [[License: MIT](https://shields.io)](https://opensource.org)
 
 Reproducible code and experiments accompanying the **Towards Data Science** article: 
-📖 [**“How to Make Linear Regression Survive Outliers: Comparing Classical and Modern Robust Estimators Through Theory, Code, and Experiments”**]([https://towardsdatascience.com](https://towardsdatascience.com/how-to-make-linear-regression-survive-outliers/)).
+📖 [**“How to Make Linear Regression Survive Outliers: Comparing Classical and Modern Robust Estimators Through Theory, Code, and Experiments”**](https://towardsdatascience.com/how-to-make-linear-regression-survive-outliers/).
 
 The notebook compares:
 
